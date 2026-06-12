@@ -43,7 +43,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
                     ชื่อผลงานตีพิมพ์
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">Development of AI Models for Healthcare Predictive Analytics</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>Development of AI Models for Healthcare Predictive Analytics</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <!-- Field 2 -->
@@ -52,7 +57,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
                     รายชื่อผู้วิจัย
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">Dr. Jane Doe, Dr. John Smith</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>Dr. Jane Doe, Dr. John Smith</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <!-- Field 2.5 (Faculty) -->
@@ -61,7 +71,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                     หน่วยงาน
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">คณะแพทยศาสตร์</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>คณะแพทยศาสตร์</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <div class="bg-white px-4 py-3 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 items-center">
@@ -69,7 +84,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
                     ประเภท
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">งานวิจัย</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>งานวิจัย</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <div class="bg-gray-50 px-4 py-3 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 items-center">
@@ -77,8 +97,11 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     สถานะโครงการ
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
                     <span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-bold">กำลังดำเนินการ (In Progress)</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
                 </dd>
             </div>
 
@@ -88,9 +111,14 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
                     ชื่อวารสาร
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center">
-                    Journal of Medical AI 
-                    <span class="ml-2 px-1.5 py-0.5 bg-green-100 text-green-800 rounded text-[10px] font-bold">Q1</span>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <div class="flex items-center">
+                        Journal of Medical AI 
+                        <span class="ml-2 px-1.5 py-0.5 bg-green-100 text-green-800 rounded text-[10px] font-bold">Q1</span>
+                    </div>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
                 </dd>
             </div>
 
@@ -100,7 +128,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                     ปีที่ตีพิมพ์
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">2023</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>2023</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <!-- Field 4.5 -->
@@ -109,7 +142,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                     ปีที่เผยแพร่
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">2024</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>2024</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <!-- Field 5 -->
@@ -118,7 +156,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12"></path></svg>
                     จำนวน Citation
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">15 ครั้ง</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>15 ครั้ง</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <!-- Field 5.5 -->
@@ -127,7 +170,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     งบประมาณ (Budget)
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">50,000 บาท</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>50,000 บาท</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <!-- Field 5.75 (Funding Source) -->
@@ -136,7 +184,12 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                     แหล่งทุน (Funding Source)
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">กองทุนพัฒนาการวิจัย มหาวิทยาลัย</dd>
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
+                    <span>กองทุนพัฒนาการวิจัย มหาวิทยาลัย</span>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
+                </dd>
             </div>
 
             <!-- Field 6 (Link) -->
@@ -145,11 +198,14 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
                     Link บทความ
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
                     <a href="#" target="_blank" class="text-orange-600 hover:text-orange-800 underline flex items-center w-max transition-colors">
                         คลิกเพื่ออ่านบทความ
                         <svg class="w-3.5 h-3.5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                     </a>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
                 </dd>
             </div>
 
@@ -159,11 +215,14 @@ if ($id <= 0) {
                     <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                     สัญญา/ติดตาม
                 </dt>
-                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2">
+                <dd class="mt-1 font-semibold text-slate-900 sm:mt-0 sm:col-span-2 flex items-center justify-between">
                     <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors">
                         <svg class="w-4 h-4 mr-1.5 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path></svg>
                         ดาวน์โหลดเอกสารสัญญา (PDF)
                     </a>
+                    <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-50" title="แก้ไข">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    </button>
                 </dd>
             </div>
 
@@ -172,10 +231,15 @@ if ($id <= 0) {
 
         <!-- Abstract Box (2nd Column) -->
         <div class="bg-gray-50 border border-gray-200 rounded-lg p-5 h-fit shadow-sm">
-            <h3 class="font-bold text-slate-800 flex items-center mb-3 text-base border-b border-gray-200 pb-2">
-                <svg class="w-5 h-5 mr-1.5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
-                บทคัดย่อ (Abstract)
-            </h3>
+            <div class="flex items-center justify-between mb-3 border-b border-gray-200 pb-2">
+                <h3 class="font-bold text-slate-800 flex items-center text-base">
+                    <svg class="w-5 h-5 mr-1.5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+                    บทคัดย่อ (Abstract)
+                </h3>
+                <button type="button" class="text-blue-500 hover:text-blue-700 transition-colors p-1 rounded-md hover:bg-blue-100" title="แก้ไข">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                </button>
+            </div>
             <div class="text-sm text-slate-700 leading-relaxed space-y-3">
                 <p>การศึกษานี้ได้สำรวจและวิเคราะห์การประยุกต์ใช้ปัญญาประดิษฐ์ (AI) ในการพยากรณ์ความเสี่ยงด้านสุขภาพจากข้อมูลผู้ป่วยในอดีต (This study explores the application of artificial intelligence in early disease detection and predictive analytics using historical patient data.) โดยผลลัพธ์แสดงให้เห็นถึงความแม่นยำในการคาดการณ์ที่สูงถึง 92% ซึ่งมีนัยสำคัญในการนำไปใช้ในโรงพยาบาลระดับประเทศต่อไป.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, dicta inventore itaque ratione molestias quisquam impedit laudantium architecto dolores officiis minus officia rerum, nam beatae repudiandae est sit repellendus eaque!</p>
