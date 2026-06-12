@@ -32,7 +32,7 @@ $current_route = defined('CURRENT_ROUTE') ? CURRENT_ROUTE : 'index';
                 <div class="flex-shrink-0 flex items-center">
                     <a href="<?php echo BASE_URL; ?>" class="flex items-center gap-3 no-underline group">
                         <img src="<?php echo BASE_URL; ?>assets/img/ennulogo.png" alt="logo ennu" class="h-10 w-10 object-contain group-hover:opacity-80 transition-opacity">
-                        <span class="font-bold text-xl text-slate-800 group-hover:text-orange-600 transition-colors">ระบบฐานข้อมูลงานวิจัย</span>
+                        <span class="font-bold text-xl text-slate-800 group-hover:text-orange-600 transition-colors">ระบบฐานข้อมูลโครงงานวิจัย</span>
                     </a>
                 </div>
                 
@@ -40,7 +40,7 @@ $current_route = defined('CURRENT_ROUTE') ? CURRENT_ROUTE : 'index';
                 <div class="flex items-center space-x-2">
                     <a href="<?php echo BASE_URL; ?>" class="px-3 py-2 rounded-md text-sm font-medium transition-all <?php echo ($current_route == 'index' || $current_route == 'user/index') ? 'bg-orange-50 text-orange-700' : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'; ?>">หน้าแรก</a>
                     
-                    <a href="<?php echo BASE_URL; ?>user/research" class="px-3 py-2 rounded-md text-sm font-medium transition-all <?php echo (strpos($current_route, 'research') !== false || strpos($current_route, 'mou_') !== false) ? 'bg-orange-50 text-orange-700' : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'; ?>">ฐานข้อมูลงานวิจัย</a>
+                    <a href="<?php echo BASE_URL; ?>user/research" class="px-3 py-2 rounded-md text-sm font-medium transition-all <?php echo (strpos($current_route, 'research') !== false || strpos($current_route, 'mou_') !== false) ? 'bg-orange-50 text-orange-700' : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'; ?>">ฐานข้อมูลโครงงานงานวิจัย</a>
                     
                     <!-- Auth Logic -->
                     <?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true): ?>
